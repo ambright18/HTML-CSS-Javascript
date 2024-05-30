@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0"/>
+        <title>Alex's Menu</title>
+        <!-- stylesheet -->
+        <!-- font-awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="menu">
+            <!--title-->
+            <div class="title">
+                <h2>Alex's Menu</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- filter buttons -->
+            <div class="btn-container">
+                <button type="button" class="filter-btn" data-id="all">All</button>
+                <button type="button" class="filter-btn" data-id="breakfast">
+                    breakfast
+                </button>
+                <button type="button" class="filter-btn" data-id="lunch">lunch</button>
+                <button type="button" class="filter-btn" data-id="deserts">deserts</button> 
+            </div>
+            <!-- menu items-->
+            <div class="section-center">
+                <!-- single item -->
+                <article class="menu-item">
+                    <img src="./images/menu-photo.jpeg" alt="menu item" class="photo" />
+                    <div class="item-info">
+                        <header>
+                            <h4> toast & eggs </h4>
+                            <h4 class="price">$8.99</h4>
+                        </header>
+                        <p class="item-text">
+                            A fine gourmet style toast using one of our local farmers
+                            freshest ingredients. A brigth way to start your day!
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single item -->
+                <!-- single item -->
+                <article class="menu-item">
+                    <img src="./images/menu-pancake.jpeg" alt="menu item" class="photo" />
+                    <div class="item-info">
+                        <header>
+                            <h4> pancakes with toppings </h4>
+                            <h4 class="price">$14.99</h4>
+                        </header>
+                        <p class="item-text">
+                            Here we have some of the fluffiest pancakes you'll
+                            ever eat! It even comes with a wide array of assorted 
+                            toppings to suit everyone's needs.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single item -->
+                <!-- single item -->
+                <article class="menu-item">
+                    <img src="./images/menu-biscuit.jpeg" alt="menu item" class="photo" />
+                    <div class="item-info">
+                        <header>
+                            <h4> sausage biscuits & cheese </h4>
+                            <h4 class="price">$6.99</h4>
+                        </header>
+                        <p class="item-text">
+                            This is a personal favorite of mine. It's simple 
+                            and easy to make... the Sausage Biscuit!! It's 
+                            undeniably delicious and we hope you enjoy it!
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single item -->
+                
+            </div>
+        </section>
+          <!--javascript file-->
+        <script src="app.js"></script>
+    </body>
+</html>
