@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0"/>
+        <title>Alex's Tabs Project</title>
+            <!-- font-awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- lets create a section class to hold all our tabs-->
+        <section class="section">
+            <div class="title">
+                <h2>about</h2>
+                <p>This is just a little something about us
+                    as a company. We do hope you find it interesting
+                    because if you don't, we'll go insane! Not really, just some random text to use.
+                </p>
+            </div>
+            <div class="about-center section-center">
+                <article class="about-img">
+                    <img src="./hero-bcg.jpeg" alt="" />
+                </article>
+                <article class="about">
+                    <div class="btn-container">
+                        <button class="tab-btn active" data-id="history">history</button>
+                        <button class="tab-btn active" data-id="goals">goals</button>
+                        <button class="tab-btn active" data-id="vision">vision</button>
+                    </div>
+                    <div class="about-content">
+                        <!--single item-->
+                        <div class="content active" id="history">
+                            <h4>history</h4>
+                            <p>
+                                Did you know that the wild west used to have lots of saloons and cowboys. 
+                                Random and basic history, I know, but it's something to fill the P tag.
+                            </p>
+                        </div>
+                        <!-- end of single item-->
+                        <!-- single item-->
+                        <div class="content" id="goals">
+                            <h4>goals</h4>
+                            <p>
+                                It is important to have goals as it develops a healthy mindset and a sense of
+                                achievement when accomplishing said goals. Never forget... You can do it!!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content" id="vision">
+                        <h4>vision</h4>
+                        <p>
+                            Having some decent vision can improve your movie quality experience 
+                            instead of seeing blurred images that offer no real detail. Get some 
+                            glasses and it'll be a whole new world!!
+              
+                        </p>
+                        <ul>
+                            <li>See </li>
+                            <li>The  </li>
+                            <li>World </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+          <!--javascript file-->
+        <script src="app.js"></script>
+    </body>
+</html>
